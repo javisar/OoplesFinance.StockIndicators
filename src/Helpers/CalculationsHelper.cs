@@ -807,7 +807,8 @@ public static class CalculationsHelper
     /// <param name="value">The value.</param>
     public static void AddRounded(this List<double> list, double value)
     {
-        list.Add(Math.Round(value, 4));
+        //list.Add(Math.Round(value, 4));
+        list.Add(value);
     }
 
     /// <summary>
